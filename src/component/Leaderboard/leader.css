@@ -1,0 +1,81 @@
+.leader-board-container {
+  width: 1108px;
+  height: 202px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #81a8e3;
+  box-shadow: 58px 51px 4px 0px rgba(0, 0, 0, 0.25);
+  filter: blur(1px);
+}
+.leader-board_card_container {
+  width: 531px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ff1975;
+}
+.leader-board {
+  display: flex;
+  align-items: center;
+  padding: 8px 18px;
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.leader-board_text {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 12px;
+  gap: 103px;
+}
+.texts {
+  display: flex;
+  align-items: center;
+  gap: 81px;
+}
+.texts-h3 {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title-nav-span-leader {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 21.98px */
+}
+.emoji-container {
+  display: flex;
+  justify-content: space-around;
+}
+.emoji {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 49px;
+}
+.emoji img {
+  width: 86px;
+  height: 86px;
+  flex-shrink: 0;
+}
+.emoji-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.emoji-center img {
+  width: 107px;
+  height: 107px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,129 @@
+.withdrawal_container {
+  display: flex;
+  gap: 20em;
+}
+.withdrawal_setting {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+.btn {
+  display: flex;
+  width: 81px;
+  height: 40px;
+  padding: 9px 21px 8px 22px;
+  justify-content: center;
+  align-items: center;
+  /* align-items: flex-start; */
+  gap: 4px;
+  border-radius: 8px;
+  border: 1px solid #ff1975;
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+.select_title {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+.profile_container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.name {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+.button_container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.button {
+  display: flex;
+  width: 357px;
+  height: 41px;
+  padding: 14px 209px 13px 65px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  color: #7a7a7a;
+  background: #060d1f;
+  font-family: Avenir LT Std;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.input_class{
+  /* width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; */
+  width: 357px;
+  display: flex;
+  background: #060d1f;
+  height: 32px;
+  margin: 12px 0;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+label {
+  color: #7a7a7a;
+  font-family: Avenir LT Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.bank_info {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  margin-top: 30px;
+}
+.radio_container{
+    display: flex;
+    gap:31px;
+    align-items: center;
+}
+.radio {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: #7a7a7a;
+  font-family: Avenir LT Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}

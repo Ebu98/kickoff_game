@@ -1,0 +1,131 @@
+.multi_player_container_wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}
+
+.multi_player_container {
+  width: 443px;
+  height: 101px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #ff1975;
+}
+.multi_player {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding-left: 1em;
+}
+.multi_player_text {
+  display: flex;
+  align-items: center;
+  padding-right: 2.3125em;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  color: #757575;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 120%; /* 16.8px */
+  padding: 0 6.9375em 0.8em 0;
+}
+.text-h3 {
+  color: #b1b1b1;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+.play-icon {
+  background-color: #fff;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  border-radius: 7px;
+}
+.title-nav {
+  padding-bottom: 1.625em;
+}
+.title-nav-span {
+  font-size: 1.2rem;
+  padding-bottom: 2.625em;
+  color: #757575;
+  font-family: Avenir LT Std;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title-nav-h6 {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1.125em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.choose_player {
+  color: #b1b1b1;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2.5em 0 1.875em 0;
+}
+.play_list_container {
+  width: 926px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 25, 117, 0.25);
+
+  background: linear-gradient(
+    180deg,
+    #ff1975 0%,
+    rgba(255, 25, 117, 0.53) 47.1%,
+    rgba(255, 25, 117, 0) 100%
+  );
+}
+.invitation-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.875em 0 0;
+}
+.invite {
+  color: #b1b1b1;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.send-direct-link {
+  color: #757575;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 157%; /* 21.98px */
+}
+.how-to-use-invitation {
+  color: #ff1975;
+  font-family: Avenir LT Std;
+  font-size:  0.75rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 157%; /* 18.84px */
+}
+.players-wrapper {
+  padding: 2.1875em  2.1875em  2.1875em 2.25em;
+}
+.profile-two2 {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+}

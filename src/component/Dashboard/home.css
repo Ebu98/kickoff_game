@@ -1,0 +1,159 @@
+.success-card {
+  width: 592px;
+  height: 308px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: rgba(244, 247, 255, 0.13);
+  backdrop-filter: blur(2px);
+  position: relative;
+}
+@media screen and (max-width: 390px) {
+  .success-card {
+    width: 324px;
+    height: 201px;
+    flex-shrink: 0;
+    /* margin: 0  2.0625em */
+  }
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+@media screen and (max-width: 390px) {
+  
+}
+
+.hero-component {
+  display: flex;
+  gap: 2em;
+}
+.big-card {
+  width: 482px;
+  height: 792px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #fa5045;
+  background: #fce2e2;
+}
+@media screen and (max-width: 390px) {
+  .big-card {
+    display: none;
+  }
+}
+.card-icon-home {
+  display: flex;
+  align-items: center;
+  gap: 3.4375em;
+  text-transform: uppercase;
+}
+.card-icon-home,
+img {
+  padding: 0.75em 0 0.6875em 0.9375em;
+  box-shadow: 0px 1px 4px 0px rgba(110, 116, 134, 0.12);
+}
+.card-icon-home,
+h3 {
+  color: #333;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+@media screen and (max-width: 390px) {
+  .card-icon-home {
+    width: 104px;
+    height: 97px;
+    padding: 16px;
+  }
+  h3 {
+    display: none;
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-ptag {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  text-transform: uppercase;
+}
+.content-h2-tag {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 1em; /* 114.286% */
+  /* text-transform: uppercase; */
+}
+/* .content, */
+.button-content {
+  display: flex;
+  width: 153px;
+  height: 45px;
+  padding: 0.5em;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 15px;
+  background: #ff1975;
+  box-shadow: 6px 6px 13px 0px rgba(250, 80, 69, 0.15);
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 750;
+  line-height: normal;
+}
+.profile-two {
+  position: absolute;
+  top: 70%;
+  right: 30px;
+}
+.title-nav-h6 {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title-nav-span {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* padding-top: -2.625em; */
+}
+
+.sorcer-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2.875em;
+}
+.sorcer-h2-tag {
+  color: #000;
+  font-family: Avenir LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

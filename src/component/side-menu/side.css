@@ -1,0 +1,92 @@
+.sidemenu-container {
+  /* height: 100vh; */
+  /* width: 20%; */
+  width: 256px;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: #060d1f;
+}
+.nav-items {
+  color: rgba(255, 255, 255, 0.56);
+  font-feature-settings: "clig" off, "liga" off;
+  text-shadow: 0px 0px 1rem #fff;
+  font-family: Avenir LT Std;
+  font-size: 1.142rem;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.13em 0;
+  line-height: 1.25em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.none {
+  text-decoration: none;
+}
+.link {
+  display: flex;
+  width: 170px;
+  height: 25px;
+  padding: 1em 1.2em;
+  align-items: center;
+  gap: 1em;
+  border-radius: 12px;
+  background: rgba(255, 25, 117, 0.2);
+}
+.side-menu-card {
+  display: flex;
+  padding: 0.5em 1em 1em 1em;
+  flex-direction: column;
+  /* width: 84%; */
+  margin: 0 1.5em 0 1.5em;
+  align-items: center;
+  gap: 1.2em;
+  border-radius: 28px;
+  border: 0.5px solid #ff1975;
+  background: #fff;
+  box-shadow: 0px 64px 64px -32px rgba(102, 37, 0, 0.65);
+}
+.card-btn {
+  display: flex;
+  width: 176px;
+  height: 41px;
+  padding: 0.6875em 1.5em 0.6875em 1.25em;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 12px;
+  background: linear-gradient(0deg, #ff1975 0%, #ff1975 100%), #893027;
+  box-shadow: 0px 4px 24px 0px rgba(168, 82, 5, 0.3);
+  color: var(--white-01, #fff);
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+}
+.title-trivia {
+  color: #333;
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156%; /* 24.96px */
+  letter-spacing: 0.16px;
+}
+.sub-title {
+  color: rgba(97, 97, 97, 0.56);
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 20.8px */
+}
+.logo-image {
+  width: 97px;
+  height: 33.238px;
+  flex-shrink: 0;
+  padding: 1.0625em 0 0 2.75em;
+}

@@ -1,0 +1,44 @@
+.general-card {
+  width: 172px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #8743ed;
+}
+
+.trophy-card {
+  width: 172px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #c85b54;
+
+}
+.vector-card {
+  width: 172px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #6c7e92;
+}
+.vaadin-card {
+  width: 172px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fefcaf;
+}
+.flag-card {
+  width: 172px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #e3e7f1;
+}
+.iconamoon-card {
+  width: 172px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fc0106;
+}

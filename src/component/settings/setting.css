@@ -1,0 +1,68 @@
+.container_wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 60.5rem;
+  align-items: center;
+  margin-top: -7.4em;
+}
+.notification_container {
+  display: flex;
+  align-items: center;
+}
+.title_setting {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card_container {
+  width: 434px;
+  height: 110px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 25, 117, 0.2);
+  background: rgba(116, 115, 115, 0.4);
+  padding: 0.875em 71px 17px 16px;
+}
+.card_span {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 157%; /* 21.98px */
+}
+.card_h3 {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 15px;
+}
+.card_outlet {
+  margin: 1.6em 3em;
+}
+.activelink {
+  width: 434px;
+  height: 110px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 25, 117, 0.2);
+  padding: 0.875em 71px 17px 16px;
+  background: rgba(255, 25, 117, 0.15);
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 157%; /* 21.98px */
+  text-decoration: none;
+}

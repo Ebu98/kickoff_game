@@ -1,0 +1,74 @@
+.form_container_login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-image_login {
+  margin: 80px 0;
+}
+
+.form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  width: 349px;
+  height: 0.6px;
+  display: flex;
+  background: #060d1f;
+  padding: 15px 6px;
+  border: none;
+  border-bottom: 0.5px solid #fff;
+}
+.fname_login {
+  color: var(--Text---White, #fff);
+  font-family: Avenir LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.registername {
+  color: var(--Text---White, #fff);
+  font-family: Avenir LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 60px 0 50px 0;
+}
+.register_btn_login {
+  margin-top: 30px;
+  display: flex;
+  color: #fff;
+  width: 336px;
+  height: 49px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--Color---Primary, #ff1975);
+  box-shadow: 6px 6px 13px 0px rgba(250, 80, 69, 0.15);
+  border: none;
+  cursor: pointer;
+}
+
+.forgot_password_container {
+  display: "flex";
+  gap: 30px;
+}
+.password_text {
+  color: var(--Color---Primary, #ff1975);
+  font-family: Avenir LT Std;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  text-decoration-line: underline;
+  align-self: flex-end;
+}

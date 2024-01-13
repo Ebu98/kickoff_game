@@ -1,0 +1,122 @@
+.general-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2.5em;
+}
+.general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+}
+.general-img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 1.5em;
+}
+.general-text {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.general-text-flag {
+  color: #747373;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.general-text-trophy {
+  color: #fff;
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.general-text-vadin {
+  color: #747373;
+
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image-background {
+  background-image: url("../../assets/image/Rectangle\ 34.png");
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.47) 0%,
+      rgba(0, 0, 0, 0.47) 100%
+    ),
+    lightgray 50% / cover no-repeat, #d9d9d9;
+  width: 1020px;
+  height: 273px;
+  flex-shrink: 0;
+  margin-top: 2.5em;
+}
+.image-background-h3-tag {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 3.875em 0 1.25em 1.9375em;
+}
+.image-background-ptag {
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 21.98px */
+  padding: 0 20.25em 1.25em 1.9375em;
+}
+.image-background-btn {
+  display: flex;
+  width: 176px;
+  height: 41px;
+  padding: 11px 24px 11px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: var(--white-01, #fff);
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 20.25em 1.25em 1.9375em;
+  line-height: 130%; /* 18.2px */
+  border-radius: 12px;
+  background: linear-gradient(0deg, #ff1975 0%, #ff1975 100%), #893027;
+  box-shadow: 0px 4px 24px 0px rgba(168, 82, 5, 0.3);
+}
+
+.title-nav-h6-category{
+  color: #fff;
+  font-family: Avenir LT Std;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title-nav-span-category {
+  color: #FFF;
+font-family: Avenir LT Std;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 350;
+line-height: normal;
+}

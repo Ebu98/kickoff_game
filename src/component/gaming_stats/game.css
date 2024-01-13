@@ -1,0 +1,25 @@
+.gaming-stats-container {
+  display: flex;
+  width: 492px;
+  height: 237px;
+  padding: 24px 380px 193px 29px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(117, 117, 117, 0.15);
+
+  background: rgba(255, 255, 255, 0.11);
+}
+.game_rank{
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Avenir LT Std;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+}
+/* .wrapper-rank{
+    display: flex;
+    flex-direction: column;
+} */

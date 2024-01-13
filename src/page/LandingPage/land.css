@@ -1,0 +1,104 @@
+.title_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 29px;
+}
+.title_container_h2 {
+  color: var(--Text---White, #fff);
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title_container_span {
+  color: var(--Body-Text---Grey, #7a7a7a);
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 25.12px */
+}
+.container_wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register_container_span {
+  color: var(--Body-Text---Grey, #7a7a7a);
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 21.98px */
+  padding: 0 60px 0 90px;
+  margin-top: 30px;
+}
+
+.register_container_p {
+  color: var(--Body-Text---Grey, #7a7a7a);
+  text-align: center;
+  font-family: Avenir LT Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 21.98px */
+}
+.register_button {
+  display: flex;
+  width: 247px;
+  height: 45px;
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background: var(--Color---Primary, #ff1975);
+  box-shadow: 6px 6px 13px 0px rgba(255, 25, 117, 0.05);
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+}
+.vl {
+  border-left: 1px solid #ff1975;
+  height: 500px;
+  margin-top: 38px;
+}
+.login_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_button {
+  display: flex;
+  width: 247px;
+  height: 45px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background: var(--Grey---Color, #878181);
+  box-shadow: 6px 6px 13px 0px rgba(255, 255, 255, 0.05);
+  margin-top: 30px;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
