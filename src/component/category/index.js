@@ -10,48 +10,6 @@ import "./category.css";
 
 const Category = () => {
 
-  const arr = ['wear', 'wear', 'hand', 'hand', 'leg', 'mouth',[1,2],[3,4],[5,6]]
-  const Arr =[1,2,3,4,5,6];
-  const array = arr.shift([0])
-  arr.push("God is able")
-  arr.unshift("Wear me cloth")
-  arr.reverse()
-  delete arr[0]
-  // console.log(Arr)
-  // console.log({arr})
-  const numbers = [45, 4, 9, 16, 25,25,45];
-  numbers.forEach(element => {
-    // console.log(element)
-  });
-
-  let x;
-  const todo = new Object();
-  todo.id = 1
-  todo.name = "Ebuka King"
-  todo.hasOwnProperty = true
-  x = todo;
-
-  // console.log({x})
-  function Test(){
-    // const num = n1 * n2
-    const min = Math.min()
-    const max = Math.max()
-    return min, 
-    max
-  }
-  const y =  Test([2, 3, 4,6,1,0])
-  console.log({y})
-
-
-  function duplicate(arr){
-    // return arr.filter((item, index) => arr.indexOf(item) === index);
-    const array2  = [...new Set(numbers)]
-    
-    console.log({array2})
-  }
-
-  duplicate(arr)
-
   
   return (
     <div style={{ marginTop: "-8em" }}>

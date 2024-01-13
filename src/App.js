@@ -7,7 +7,6 @@ import MultiPlayer from "./component/multi-player";
 import GameStat from "./component/gaming_stats";
 import Leaderboard from "./component/Leaderboard";
 import Settings from "./component/settings";
-import LayoutSetting from "./page/setting_layout";
 import Withdrawal from "./component/setting_component/Withdrawal_settings";
 import Generals from "./component/setting_component/general";
 import GameSetting from "./component/setting_component/game";
