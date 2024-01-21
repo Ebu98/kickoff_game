@@ -34,8 +34,8 @@ const App = () => {
           <Route path="/play" element={<PlayMode />} />
 
           <Route path="/setting" element={<Settings />}>
-            <Route path="setting" element={<Generals />} />
-            <Route path="withdrawal" element={<Withdrawal />} />
+            <Route index element={<Generals />} />
+            <Route path="/setting/withdrawal" element={<Withdrawal />} />
             <Route path="game" element={<GameSetting />} />
             <Route path="feed" element={<Feedback />} />
             <Route path="profile" element={<ProfileSetting />} />

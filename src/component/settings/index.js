@@ -18,7 +18,7 @@ const Settings = () => {
       <div style={{ display: "flex" }}>
         <div className="wrapper">
           <NavLink
-            to="setting/se"
+            to="/setting"
             end
             className={({ isActive }) => (isActive ? "activelink" : "card_container")}
           >
@@ -31,7 +31,7 @@ const Settings = () => {
             </Card>
           </NavLink>
           <NavLink
-            to="game"
+            to="/setting/game"
             end
             className={({ isActive }) => (isActive ? "activelink" : "card_container")}
           >
@@ -57,7 +57,7 @@ const Settings = () => {
             </Card>
           </NavLink>
           <NavLink
-            to="withdrawal"
+            to="/setting/withdrawal"
             end
             className={({ isActive }) => (isActive ? "activelink" : "card_container")}
           >

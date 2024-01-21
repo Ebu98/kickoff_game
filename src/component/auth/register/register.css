@@ -3,8 +3,23 @@
   align-items: center;
   flex-direction: column;
 }
-.logo-image{
-    margin-top: 60px;
+@media screen and (max-width:765px) {
+      .input_register {
+        width: 349px;
+        height: 0.6px;
+        display: flex;
+        background: #060d1f;
+        /* padding: 15px 0px; */
+        border: none;
+        border-bottom: 0.5px solid #fff;
+      }
+      .logo-image_register{
+        margin-top: 60px;
+    }
+    
+  }
+.logo-image_register{
+    margin: 60px 0;
 }
 
 .form {
@@ -14,7 +29,7 @@
   gap: 30px;
 }
 
-.input {
+.input_register {
   width: 349px;
   height: 0.6px;
   /* width: 357px; */
@@ -31,7 +46,7 @@
 .fname {
   color: var(--Text---White, #fff);
   font-family: Avenir LT Std;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -39,7 +54,7 @@
 .registername {
   color: var(--Text---White, #fff);
   font-family: Avenir LT Std;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

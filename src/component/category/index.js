@@ -6,6 +6,9 @@ import VECTOR from "../../assets/svg/Vector.svg";
 import VADIN from "../../assets/svg/vaadin_globe.svg";
 import ICONAMOON from "../../assets/svg/iconamoon_history-duotone.svg";
 import FLAG from "../../assets/svg/typcn_flag-outline.svg";
+import DropdownIcon from "../../assets/svg/dropdownicon.svg";
+import DotIcon from "../../assets/svg/dot.svg";
+import Profile_Icon from "../../assets/image/profile.png";
 import "./category.css";
 
 const Category = () => {
@@ -13,9 +16,27 @@ const Category = () => {
   
   return (
     <div style={{ marginTop: "-8em" }}>
+      <div className="contain_wraper">
       <div className="title-nav">
         <h3  className="title-nav-h6-category">Hey Stella.</h3>
         <span  className="title-nav-span-category ">what game would you like to play today?</span>
+      </div>
+      <div className="profile_container">
+        <button className="dropdown_btn2">
+          <img src={DotIcon} alt="" />
+          $4500.99
+        </button>
+        <img src={Profile_Icon} alt="" className="Profile_Icon" />
+        <p className="name">Stella Odika</p>
+      </div>
+      </div>
+      
+      <div className="most_popular_container">
+        <h4 className="most_popular">Most popular</h4>
+        <button className="dropdown_btn">
+        Sort by
+          <img src={DropdownIcon} alt="" />
+        </button>
       </div>
       <div className="general-card-wrapper">
         <Card>
