@@ -7,7 +7,6 @@ import "./side.css"
 const SideMenu = ({items}) => {
   return (
     <div className="sidemenu-container">
-      {/* <h3 style={{ padding: "0 0 0 45px",color: "lightgray"}}>Kick</h3> */}
       <img src={LOGO} alt="" className="logo-image"/>
       <ul>
         {items.map((item, index) => (

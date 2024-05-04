@@ -71,7 +71,6 @@
     margin-top: 30px;
     border: none;
     cursor: pointer;
-    text-decoration: none;
   }
 }
 .register_container {
@@ -116,12 +115,11 @@
   margin-top: 30px;
   border: none;
   cursor: pointer;
-  text-decoration: none;
 }
 .vl {
   border-left: 1px solid #ff1975;
   height: 500px;
-  margin-top: 38px;
+  margin: 38px 0 0 40px;
 }
 .login_container {
   display: flex;
